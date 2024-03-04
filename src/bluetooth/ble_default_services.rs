@@ -60,6 +60,16 @@ lazy_static::lazy_static! {
       (create_ble_uuid(0x2A02), "Peripheral Privacy Flag (0x2A02)"),
       (create_ble_uuid(0x2A03), "Reconnection Address (0x2A03)"),
       (create_ble_uuid(0x2A04), "Peripheral Preferred Connection Parameters (0x2A04)"),
+      (create_ble_uuid(0x2A05), "Service Changed (0x2A05)"),
+      (create_ble_uuid(0x2A06), "Alert Level (0x2A06)"),
+      (create_ble_uuid(0x2A07), "Tx Power Level (0x2A07)"),
+      (create_ble_uuid(0x2AC9), "Resolvable Private Address Only (0x2AC9)"),
+
+      (create_ble_uuid(0x2AA2), "Language (0x2AA2)"),
+      (create_ble_uuid(0x2AA3), "Barometric Pressure Trend (0x2AA3)"),
+      (create_ble_uuid(0x2AA4), "Bond Management Control Point (0x2AA4)"),
+      (create_ble_uuid(0x2AA5), "Bond Management Feature (0x2AA5)"),
+      (create_ble_uuid(0x2AA6), "Central Address Resolution (0x2AA6)"),
 
       // Generic Attribute Service (0x1801)
       (create_ble_uuid(0x2A05), "Service Changed (0x2A05)"),
@@ -206,6 +216,15 @@ lazy_static::lazy_static! {
       (create_ble_uuid(0x2AB2), "Floor Number (0x2AB2)"),
       (create_ble_uuid(0x2AB3), "Altitude (0x2AB3)"),
       (create_ble_uuid(0x2AB4), "Uncertainty (0x2AB4)"),
+      
+      (create_ble_uuid(0x2B29), "Client Supported Features (0x2B29)"),
+      (create_ble_uuid(0x2B2A), "Database Hash (0x2B2A)"),
+      (create_ble_uuid(0x2B39), "Bluetooth SIG Data (0x2B39)"),
+      (create_ble_uuid(0x2B3A), "Server Supported Features (0x2B3A)"),
+      (create_ble_uuid(0x2B3B), "Physical Activity Monitor Features (0x2B3B)"),
+      (create_ble_uuid(0x2B3C), "General Activity Instantaneous Data (0x2B3C)"),
+      (create_ble_uuid(0x2B3D), "General Activity Summary Data (0x2B3D)"),
+      (create_ble_uuid(0x2B3E), "CardioRespiratory Activity Instantaneous (0x2B3E)"),
 
       // Volume Offset Control Service (0x1845)
       (create_ble_uuid(0x2B80), "Volume Offset State (0x2B80)"),
